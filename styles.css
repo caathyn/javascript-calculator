@@ -6,6 +6,10 @@ body {
   background: linear-gradient(90deg, rgba(205,153,231,1) 19%, rgba(77,214,210,1) 100%);
 }
 
+div {
+  display: absolute;
+}
+
 .container {
   padding: 30px;
   width: 600px;
@@ -16,11 +20,10 @@ body {
 
 #display {
   font-size: 3rem;
-  border: 1px solid grey;
-  border-radius: 1px;
-  height: 60px;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 8px;
+  height: 90px;
   width: 100%;
-  padding: 10px 15px 0px 20px;
   text-align: right;
   
 }
@@ -33,29 +36,27 @@ body {
 }
 
 button {
-  height: 50px;
+  height: 60px;
+  width: 111px;
   font-size: 2rem;
+  border: 2px solid rgb(128, 128, 128)
+
 }
 
 button:hover {
-  background-color: lightgrey;
+  background-color: #d3d3d3;
 }
 
 .operator {
-  color: blue;
+  color: rgb(12, 82, 233);
 }
 
-button.equals {
-  display: inline-block;
-  border: 1px solid grey;
-  border-radius: 1px;
-  width: 17%;
+.equals {
+  background-color: #1e90ff;
   height: 100%;
-  text-align: center;
-  padding: 127px 10px;
-  margin: 10px 6px 10px 0;
-  vertical-align: top;
-  cursor: pointer;
-  color: white;
-  background-color: dodgerblue;
+  grid-area: 2/4/6/5;
+}
+
+.equals:hover {
+  background-color: #429bf5;
 }
