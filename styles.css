@@ -24,10 +24,12 @@ div {
   border: 1px solid rgb(128, 128, 128);
   border-radius: 8px;
   height: 90px;
+  line-height: 90px;
   width: 95%;
   text-align: right;
   background-color: #fff;
   opacity: 0.3;
+  padding-right: 20px;
   
 }
 
