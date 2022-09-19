@@ -51,12 +51,12 @@ button:hover {
   background-color: #d3d3d3;
 }
 
-.operator {
+.key--operator {
   color: rgb(12, 82, 233);
 }
 
 .key--equals {
-  background-color: #1e90ff;
+  background-color: #54a5f5;
   height: 100%;
   grid-area: 2/4/6/5;
 }
@@ -66,9 +66,9 @@ button:hover {
 }
 
 .clear {
-  background-color: rgb(240, 101, 129);
+  background-color: rgb(238, 133, 154);
 }
 
 .clear:hover {
-  background-color: rgb(233, 113, 137);
+  background-color: rgb(235, 164, 178);
 }
